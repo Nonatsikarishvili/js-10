@@ -1,0 +1,61 @@
+
+.post{
+
+    background-color: rgb(179, 239, 239);
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.overlay{
+    position: fixed;
+    top: 20%;
+    left:5% ;
+    width: 90%;
+    height: 60%;
+    background-color: rgb(20, 174, 174);
+    border-radius: 15px;
+    display: none;
+}
+.overlay.overlayactive{
+    display: block;
+}
+.close{
+    position:absolute;
+    top: 53px;
+    right: 35px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+.content{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+}
+.add-post{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 50px;
+    color: brown;
+    cursor: pointer;
+}
+.overlay-content{
+    position: fixed;
+    top: 20%;
+    left:5% ;
+    width: 90%;
+    height: 60%;
+    background-color: seagreen;
+    border-radius: 15px;
+    display: none;
+}
+.overlay-content.activeAddOverlay{
+    display: block;
+}
+.form{
+    margin-top: 10%;
+    margin-left: 5%;
+}
